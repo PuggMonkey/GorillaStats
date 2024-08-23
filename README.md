@@ -21,6 +21,12 @@ This mod is a valuable tool for competitive *Gorilla Tag* players who want to im
 3. Once the round is over, press the **Stop Round** button to save the round's data.
 4. After the scrim, press the **End Scrim** button to save all of the scrim data into a JSON file.
 
+*optional*
+If you want to format the data, making it more understandable, follow the steps below:
+1. Join the [discord](https://discord.gg/xuttz3ptk9)
+2. Execute the command /gorillastats-data command, inputting the json file saved by GorillaStats
+3. Read and send the data to the players in the scrim!
+
 ## Contributing
 If you would like to contribute to GorillaStats or have suggestions, feel free to send me a DM on Discord.  
 **Discord:** `user_pugg`
