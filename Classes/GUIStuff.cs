@@ -49,7 +49,7 @@ namespace GorillaStats
                     {
                         foreach (var player in playerStats[roundNumber - 1])
                         {
-                            GUILayout.Label($"{player.Value.Name} [{player.Key}] - Tags: {player.Value.Tags} - Runtime: {Mathf.RoundToInt(player.Value.Runtime)} seconds");
+                            GUILayout.Label($"{player.Value.Name} - Tags: {player.Value.Tags} - Runtime: {Mathf.RoundToInt(player.Value.Runtime)} seconds");
                         }
                     }
                     else
