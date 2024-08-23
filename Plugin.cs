@@ -4,6 +4,7 @@ using Photon.Pun;
 using ExitGames.Client.Photon;
 using static GorillaStats.GUIStuff;
 using static GorillaStats.Scrim;
+using UnityEngine.InputSystem;
 
 namespace GorillaStats
 {
@@ -11,6 +12,8 @@ namespace GorillaStats
     public class Plugin : BaseUnityPlugin
     {
         //GUISkin customSkin;
+        public bool showGUI = true;
+
 
         void Start()
         {
@@ -72,6 +75,11 @@ namespace GorillaStats
                     }
                 }
             }
+
+            if (Keyboard.current.nKey.wasPressedThisFrame)
+            {
+                showGUI = !showGUI;
+            }
         }
 
         VRRig GetRigById(string playerId)
@@ -93,8 +101,10 @@ namespace GorillaStats
         void OnGUI()
         {
             //GUI.skin = customSkin;
-
-            windowRect = GUILayout.Window(0, windowRect, GUIWindow, "GorillaStats-By _pugg", GUILayout.MinWidth(150), GUILayout.MinHeight(50));
+            if (showGUI)
+            {
+                windowRect = GUILayout.Window(0, windowRect, GUIWindow, "GorillaStats-By _pugg", GUILayout.MinWidth(150), GUILayout.MinHeight(50));
+            }
         }
     }
 }
