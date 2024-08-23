@@ -1,6 +1,6 @@
 # GorillaStats
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Version](https://img.shields.io/badge/version-1.0-blue)
 ![Downloads](https://img.shields.io/github/downloads/PuggMonkey/GorillaStats/total.svg)
 ![Discord](https://img.shields.io/discord/1174448481981702154.svg?label=Discord&logo=discord)
 
