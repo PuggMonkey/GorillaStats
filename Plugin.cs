@@ -30,8 +30,6 @@ namespace GorillaStats
                 if (photonEvent.CustomData is object[] data)
                 {
                     string taggingPlayerId = data[0] as string;
-                    string taggedPlayerId = data[1] as string;
-                    Debug.Log($"Tag event: {taggingPlayerId} tagged {taggedPlayerId}");
 
                     if (!playerStats[roundNumber - 1].ContainsKey(taggingPlayerId))
                     {
