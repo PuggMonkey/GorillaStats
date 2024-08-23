@@ -5,7 +5,7 @@
 ![Discord](https://img.shields.io/discord/1174448481981702154.svg?label=Discord&logo=discord)
 
 ## Overview
-**GorillaStats** is a mod for *Gorilla Tag* that allows players to track and store important data during scrims. With an intuitive graphical user interface (GUI), users can start and stop rounds while keeping track of critical gameplay stats such as *Tags* and *runtime*. After scrims, all of the data is saved into a JSON file for easy reference.
+**GorillaStats** is a mod for *Gorilla Tag* that allows players to track and store important data during scrims. With an intuitive GUI, users can start and stop rounds while keeping track of critical gameplay stats such as *Tags* and *runtime*. After scrims, all of the data is saved into a JSON file for easy reference.
 
 This mod is a valuable tool for competitive *Gorilla Tag* players who want to improve their strategies by reviewing in-game statistics.
 
