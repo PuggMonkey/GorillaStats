@@ -16,7 +16,7 @@ This mod is a valuable tool for competitive *Gorilla Tag* players who want to im
 - Simple GUI for easy control during games
 
 ## Usage
-1. Load up *Gorilla Tag* and join a game using a code.
+1. Load up *Gorilla Tag* and join a code.
 2. In the GorillaStats GUI, press the **Start Round** button to begin recording data for the round.
 3. Once the round is over, press the **Stop Round** button to save the round's data.
 4. After the scrim, press the **End Scrim** button to save all of the scrim data into a JSON file.
